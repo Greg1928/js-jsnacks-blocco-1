@@ -6,7 +6,7 @@ for ( let i = 0; i<4; i++){
 }
 console.log(x);
 for ( let i = 0; i<4; i++){
-    if(x[i]%2 != 0){
+    if( i%2 != 0){
         dispari.push(x[i]);
         somma += x[i];
     }
